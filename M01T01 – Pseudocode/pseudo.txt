@@ -1,0 +1,62 @@
+# Task 1: Enter Positive Numbers and Find Largest
+# Repeatedly asks user to enter numbers and stores the largest
+initialize max_number to 0
+loop:
+    request user to enter a positive number
+    store input in variable number
+    if number is 0:
+        exit loop
+    if number > max_number:
+        set max_number to number
+print "The largest number entered is", max_number
+
+
+# Task 2: Print Name with Greeting
+# Requests name input and prints a greeting message
+request user to enter their name
+store input in variable first_name
+print first_name + " Hello, World"
+
+
+# Task 3: Arithmetic Average of Integers
+# Reads multiple integers and calculates average
+initialize total to 0
+initialize count to 0
+loop:
+    request user to enter a number (or type 'done' to finish)
+    if input is 'done':
+        exit loop
+    convert input to integer
+    add number to total
+    increment count by 1
+if count > 0:
+    average = total / count
+    print "The average is", average
+else:
+    print "No numbers were entered"
+
+
+# Task 4: Grocery List Alphabetical Order
+# Stores grocery items and prints them in alphabetical order
+initialize an empty list called grocery_list
+loop:
+    request user to enter a grocery item (or type 'done' to finish)
+    if input is 'done':
+        exit loop
+    add input to grocery_list
+sort grocery_list in alphabetical order
+print "Items still left to buy:"
+for each item in grocery_list:
+    print item
+
+
+# Task 5: Flowchart-Based Algorithm (Page 11 Reference)
+# Follows the flowchart to compute and display sum, average, and product
+request input X
+request input Y
+set S = X + Y
+set A = S / 2
+set P = X * Y
+print S
+print A
+print P

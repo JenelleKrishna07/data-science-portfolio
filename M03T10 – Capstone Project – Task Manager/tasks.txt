@@ -1,0 +1,2 @@
+admin, Setup repository, Push files to GitHub, 2025-06-01, 2025-06-10, Yes
+admin, Implement login, Complete login validation and menu, 2025-06-01, 2025-06-12, No
